@@ -1,0 +1,49 @@
+/* blog page css */
+.blog {
+  &-item {
+    &__content { }
+
+    &__title {
+      color: $primary-blue;
+    }
+
+    &__meta {
+      font-style: italic;
+      font-size: .8em;
+    }
+  }
+
+  &-detail {
+    max-width: 750px;
+
+    &__title {
+      display: flex;
+      justify-content: center;
+      color: $primary-blue;
+    }
+
+    &__meta {
+      display: flex;
+      justify-content: center;
+      font-style: italic;
+      font-size: .8em;
+      margin: 1em 0 2em;
+    }
+
+    &__image {
+      margin-bottom: 2em;
+    }
+
+    &__content {
+      p {
+        margin-bottom: 1.5em;
+      }
+
+      h1,
+      h2,
+      h3 {
+        margin-bottom: .5em;
+      }
+    }
+  }
+}

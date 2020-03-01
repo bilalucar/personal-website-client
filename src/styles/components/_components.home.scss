@@ -1,0 +1,55 @@
+/* home page css */
+.home {
+  &__logo {
+    width: 200px;
+    height: 200px;
+    background: url('/images/logo.jpg') no-repeat center top;
+    background-size: 200px 200px;
+    text-indent: -9999px;
+    border-radius: 50%;
+  }
+
+  &__list-title {
+    margin-bottom: 0;
+    font-weight: 400;
+  }
+
+  &__title {
+    color: $primary-blue;
+  }
+
+  &__work {
+    img {
+      position: relative;
+      transition: all 350ms ease;
+      top: 0;
+    }
+
+    span {
+      background: #6c757d;
+      position: absolute;
+      z-index: -1;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 70px;
+      color: white;
+      line-height: 70px;
+      text-align: center;
+      font-weight: 400;
+      font-size: 22px;
+      display: block;
+    }
+
+    &__item {
+      overflow: hidden;
+      position: relative;
+      display: block;
+
+      &:hover img {
+        top: -70px;
+        transition: all 350ms ease;
+      }
+    }
+  }
+}
