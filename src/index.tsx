@@ -15,7 +15,7 @@ const middleware = applyMiddleware(logger, thunk);
 
 const store = createStore(rootReducer, middleware);
 
-const API_URL = 'https://us-central1-blog-269208.cloudfunctions.net/blog/api/v1/posts';
+const API_URL = 'http://localhost:5000/blog-269208/us-central1/blog/api/v1/posts';
 
 // @ts-ignore
 store.dispatch((dispatch: any) => {

@@ -11,13 +11,40 @@ export interface PostState {
 
 export interface Post {
     id: string;
+    authorInfo: AuthorInfoModel;
+    categoryId?: string;
+    created: DateObjectModel;
+    featuredImage: string;
     title: string;
-    timestamp: number;
-    content: any;
-    author: string;
-    imageUrl: string;
-    url: string;
     summary: string;
+    content: string;
+    url: string;
+    htmlTitle: string;
+    metaDescription: string;
+    tags: string[];
+}
+
+export interface AuthorInfoModel {
+    username: string;
+    name: string;
+    surname: string;
+    fullName: string;
+    email: string;
+    bio?: string;
+    avatar: string;
+    created: Date;
+    updated?: Date;
+    facebook?: string;
+    twitter?: string;
+    instagram?: string;
+    linkedin?: string;
+    github?: string;
+    website?: string;
+}
+
+export interface DateObjectModel {
+    _seconds: number;
+    _nanoseconds: number;
 }
 
 export interface PostItem {

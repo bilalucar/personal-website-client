@@ -1,15 +1,31 @@
 /* blog page css */
+
 .blog {
   &-item {
     &__content { }
 
     &__title {
       color: $primary-blue;
+
+      .skeleton & {
+        @include skeleton-base;
+      }
     }
 
     &__meta {
       font-style: italic;
       font-size: .8em;
+
+      .skeleton & {
+        @include skeleton-base;
+        margin-bottom: 0.5em;
+      }
+    }
+
+    p {
+      .skeleton & {
+        @include skeleton-base;
+      }
     }
   }
 
@@ -17,21 +33,62 @@
     max-width: 750px;
 
     &__title {
-      display: flex;
-      justify-content: center;
-      color: $primary-blue;
+      font-size: 1.5em;
+      height: 1em;
+
+      .skeleton & {
+        @include skeleton-base;
+      }
+    }
+
+    &__summary {
+      color: $secondary-text-color;
+      margin-bottom: 1.5em;
+
+      .skeleton & {
+        @include skeleton-base;
+      }
     }
 
     &__meta {
       display: flex;
-      justify-content: center;
-      font-style: italic;
+      margin: 1.5em 0;
+      height: 60px;
+    }
+
+    &__meta-item {
       font-size: .8em;
-      margin: 1em 0 2em;
+
+      .skeleton & {
+        @include skeleton-base;
+        height: 1.2em;
+        margin-bottom: 10px;
+        width: 200px;
+      }
+    }
+
+    &__avatar {
+      font-size: 60px;
+      border-radius: 50%;
+      margin-right: 20px;
+      width: 1em;
+      height: 1em;
+      border: $base-border;
+
+      .skeleton & {
+        @include skeleton-base;
+        width: 1em;
+        border: none;
+      }
     }
 
     &__image {
       margin-bottom: 2em;
+
+      .skeleton & {
+        @include skeleton-base;
+        height: 500px;
+      }
     }
 
     &__content {
@@ -44,6 +101,26 @@
       h3 {
         margin-bottom: .5em;
       }
+    }
+
+    &__tag-box {
+      margin-top: 2em;
+
+      .skeleton & {
+        display: none;
+      }
+    }
+
+    &__tag-text {
+      margin-right: .5em;
+    }
+
+    &__tag {
+      background-color: rgba($primary-blue, .2);
+      border-radius: .3em;
+      padding: .5em;
+      margin-right: 5px;
+      font-size: .8em;
     }
   }
 }
