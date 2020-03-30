@@ -8,7 +8,9 @@ function Home() {
                     <div
                         className="col-12 col-md-4 d-flex justify-content-center justify-content-md-start wow fadeInUp animated"
                         data-wow-duration="1s" data-wow-delay="0s">
-                        <h1 className="home__logo">Front End, JavaScript Developer - Bilal Uçar</h1>
+                        <h1 className="home__logo" style={{backgroundImage: `url(/images/logo.jpg`}}>
+                            Front End, JavaScript Developer - Bilal Uçar
+                        </h1>
                     </div>
                     <div className="col-12 col-md-8 wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0.3s">
                         <p>Merhaba,</p>

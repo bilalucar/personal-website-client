@@ -3,7 +3,8 @@
   &__logo {
     width: 200px;
     height: 200px;
-    background: url('/images/logo.jpg') no-repeat center top;
+    background-repeat: no-repeat;
+    background-position: center top;
     background-size: 200px 200px;
     text-indent: -9999px;
     border-radius: 50%;
