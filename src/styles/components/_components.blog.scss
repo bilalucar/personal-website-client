@@ -34,10 +34,10 @@
 
     &__title {
       font-size: 1.5em;
-      height: 1em;
 
       .skeleton & {
         @include skeleton-base;
+        height: 1em;
       }
     }
 
@@ -73,7 +73,6 @@
       margin-right: 20px;
       width: 1em;
       height: 1em;
-      border: $base-border;
 
       .skeleton & {
         @include skeleton-base;
@@ -104,6 +103,8 @@
     }
 
     &__tag-box {
+      display: flex;
+      flex-flow: wrap;
       margin-top: 2em;
 
       .skeleton & {
@@ -116,10 +117,11 @@
     }
 
     &__tag {
-      background-color: rgba($primary-blue, .2);
+      background-color: $tag-background-color;
       border-radius: .3em;
-      padding: .5em;
+      padding: .1em .5em;
       margin-right: 5px;
+      margin-bottom: .5em;
       font-size: .8em;
     }
   }

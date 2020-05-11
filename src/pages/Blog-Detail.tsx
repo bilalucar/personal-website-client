@@ -40,7 +40,7 @@ class BlogDetail extends React.Component<any, any> {
                         <div className="blog-detail__content"
                              dangerouslySetInnerHTML={{__html: foundPost?.content}}/>
                         <div className="blog-detail__tag-box">
-                            <span className="blog-detail__tag-text">Etiketler:</span>
+                            <div className="blog-detail__tag-text">Etiketler:</div>
                             {foundPost?.tags?.map(item => <span className="blog-detail__tag" key={item}>#{item}</span>)}
                         </div>
                     </div>

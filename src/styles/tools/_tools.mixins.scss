@@ -8,9 +8,9 @@
   width: 100%;
   background: linear-gradient(
                   -90deg,
-                  #efefef 0%,
-                  #fcfcfc 50%,
-                  #efefef 100%
+                  $from 0%,
+                  $to 50%,
+                  $from 100%
   );
   background-size: 400% 400%;
   animation: pulse 1.2s ease-in-out infinite;

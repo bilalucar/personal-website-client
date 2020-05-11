@@ -3,10 +3,12 @@
   justify-content: center;
   align-items: center;
   padding: 20px;
-  box-shadow: $base-shadow;
+  background-color: $header-background-color;
 
   &__menu {
-
+    a {
+      color: $secondary-text-color;
+    }
   }
 
   &__menu-item {

@@ -2,12 +2,14 @@
    #GLOBAL
    ========================================================================== */
 
-$primary-blue: #038FD6;
-$primary-text-color: rgba(black, 0.8);
-$secondary-text-color: rgba(black, 0.6);
+$primary-blue: rgb(45, 136, 255);
+$primary-text-color: rgb(228, 230, 235);
+$secondary-text-color: rgb(176, 179, 184);
 
-$base-shadow: 0 2px 8px rgba(0, 0, 0, .15);
+$background-color: #18191a;
+$light-background-color: rgb(36, 37, 38);
 
-$base-border: 1px solid rgba(black, 0.1);
+$header-background-color: $light-background-color;
+$tag-background-color: $light-background-color;
 
-$skeleton-from-color: #f5f5f5;
+$skeleton-from-color: $light-background-color;

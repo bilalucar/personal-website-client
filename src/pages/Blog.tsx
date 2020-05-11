@@ -18,7 +18,7 @@ class Blog extends React.Component<any> {
                                 data-wow-delay="0s">Blog</h3>
                         </div>
                     </div>
-                    { posts.length
+                    { posts.sort((a: any, b: any) => b.created._seconds - a.created._seconds).length
                         ? posts.map((post: Post) => <BlogItem item={post} key={post.id}/>)
                         : (
                             <div className="skeleton">
