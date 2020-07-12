@@ -11,8 +11,23 @@
   }
 
   &__list-title {
-    margin-bottom: 0;
-    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+  }
+
+  &__tags {
+     display: flex;
+    flex-wrap: wrap;
+
+    span {
+      background-color: $tag-background-color;
+      border-radius: .3em;
+      padding: .1em .5em;
+      margin-right: 5px;
+      margin-bottom: .5em;
+      font-size: .8em;
+    }
   }
 
   &__title {

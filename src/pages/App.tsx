@@ -19,6 +19,7 @@ class App extends React.Component<any, any> {
                             <Link id="home" className="header__menu-item" to="/">Anasayfa</Link>
                             <Link id="portfolio" className="header__menu-item" to="/portfolyo">Portfolyo</Link>
                             <Link className="header__menu-item" to="/blog">Blog</Link>
+                            <Link className="header__menu-item" target="_blank" to="/files/bilal-ucar-cv.pdf">CV</Link>
                         </div>
                     </div>
 

@@ -68,27 +68,48 @@ function Home() {
                             yürümesi için Agile
                             yaklaşımlarının uygulanması taraftarıyım.</p>
                         <div className="row -small">
-                            <div className="col-12 col-sm-6">
+                            <div className="col-12">
                                 <p className="home__list-title bold">Yeteneklerim</p>
-                                <ul>
-                                    <li><p>HTML5, CSS, Bootstrap</p></li>
-                                    <li><p>JavaScript, jQuery</p></li>
-                                    <li><p>Angular 2+, React, Ionic</p></li>
-                                    <li><p>SCSS, LESS</p></li>
-                                    <li><p>Webpack</p></li>
-                                    <li><p>WordPress</p></li>
-                                </ul>
+                                <div className="home__tags">
+                                    <span>#Angular</span>
+                                    <span>#JavaScript</span>
+                                    <span>#TypeScript</span>
+                                    <span>#ES6</span>
+                                    <span>#HTML5</span>
+                                    <span>#CSS</span>
+                                    <span>#SCSS</span>
+                                    <span>#Bootstrap</span>
+                                    <span>#jQuery</span>
+                                    <span>#React</span>
+                                    <span>#Redux</span>
+                                    <span>#Ionic</span>
+                                    <span>#Webpack</span>
+                                    <span>#WordPress</span>
+                                    <span>#Git</span>
+                                    <span>#JIRA</span>
+                                    <span>#Agile & Scrum</span>
+                                </div>
                             </div>
-                            <div className="col-12 col-sm-6">
-                                <p className="home__list-title bold">&nbsp;</p>
-                                <ul>
-                                    <li><p>TypeScript</p></li>
-                                    <li><p>ES6</p></li>
-                                    <li><p>Git (GitHub, GitLab)</p></li>
-                                    <li><p>WebStorm</p></li>
-                                    <li><p>JIRA</p></li>
-                                    <li><p>Agile & Scrum</p></li>
-                                </ul>
+                        </div>
+                        <div className="row -small">
+                            <div className="col-12">
+                                <p className="home__list-title bold">Kullandığım Yazılımlar</p>
+                                <div className="home__tags">
+                                    <span>#MacOS</span>
+                                    <span>#Apple Mail</span>
+                                    <span>#Webstorm</span>
+                                    <span>#Google Chrome</span>
+                                    <span>#Safari</span>
+                                    <span>#Postman</span>
+                                    <span>#Teams</span>
+                                    <span>#Slack</span>
+                                    <span>#Telegram</span>
+                                    <span>#WhatsApp</span>
+                                    <span>#Spotify</span>
+                                    <span>#GitHub</span>
+                                    <span>#GitLab</span>
+                                    <span>#Zsh</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -142,7 +163,7 @@ function Home() {
                         <p>Benimle iletişime geçmek istiyorsanız, aşağıdaki iletişim seçeneklerinden birini
                             kullanabilirsiniz.
                             Size en kısa zamanda yanıt vermeye çalışacağım.</p>
-                        <p><a href="mailto:mail@bilalucar.com">mail@bilalucar.com</a></p>
+                        <p><a href="mailto:ucarbilal@outlook.com">ucarbilal@outlook.com</a></p>
                         <p><a href="tel:+905398651530" className="bold">+90 539 865 1530</a></p>
                         <p>Ataşehir/İstanbul</p>
                     </div>
