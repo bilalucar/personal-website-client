@@ -9,7 +9,7 @@ function Footer() {
                     animationDelay: '0.3s',
                     animationName: 'fadeInUp',
                 }}>
-            <div className="row">
+            <div className="row" id="contact">
                 <div className="col-full">
                     <div className="seperator"/>
                 </div>

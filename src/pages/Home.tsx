@@ -9,13 +9,13 @@ function Home() {
                         className="col-12 col-md-4 d-flex justify-content-center justify-content-md-start wow fadeInUp animated"
                         data-wow-duration="1s" data-wow-delay="0s">
                         <h1 className="home__logo" style={{backgroundImage: `url(/images/logo.jpg`}}>
-                            Front End, JavaScript Developer - Bilal Uçar
+                            Front-end, JavaScript Developer - Bilal Uçar
                         </h1>
                     </div>
                     <div className="col-12 col-md-8 wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0.3s">
                         <p>Merhaba,</p>
 
-                        <p>Ben Bilal Uçar. Testinium 'da Front End Developer olarak çalışıyorum. Yaptığım projenin
+                        <p>Ben Bilal Uçar. GittiGidiyor 'da Front-end Engineer olarak çalışıyorum. Yaptığım projenin
                             insanlar
                             tarafından sevilip kullanıldığını görmek, "Abi adamlar yapmış!" gibi cümleler duymak en
                             büyük
@@ -27,30 +27,26 @@ function Home() {
             </section>
             <section className="container-fluid wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0.3s">
                 <div className="row home__work py-5">
-                    <div className="col-6 col-md-3 p-0">
-                        <a href="/portfolyo/testinium#testinium" className="home__work__item">
-                            <img className="img-fluid" src="/images/testinium.png" alt="Testinium"/>
-                            <span>Detaylar</span>
-                        </a>
-                    </div>
-                    <div className="col-6 col-md-3 p-0">
-                        <a href="/portfolyo/testinium#dashboard" className="home__work__item">
-                            <img className="img-fluid" src="/images/dashboard.png" alt="Qa-Dashboard"/>
-                            <span>Detaylar</span>
-                        </a>
-                    </div>
-                    <div className="col-6 col-md-3 p-0">
-                        <a href="/portfolyo/testinium#loadium" className="home__work__item">
-                            <img className="img-fluid" src="/images/loadium.png" alt="Loadium"/>
-                            <span>Detaylar</span>
-                        </a>
-                    </div>
-                    <div className="col-6 col-md-3 p-0">
-                        <a href="/portfolyo/teknovol" className="home__work__item">
-                            <img className="img-fluid" src="/images/teknovol.png" alt="Teknovol"/>
-                            <span>Detaylar</span>
-                        </a>
-                    </div>
+                    <a href="/portfolyo/" className="home__work__item">
+                        <img className="img-fluid" src="/images/gittigidiyor.png" alt="GittiGidiyor"/>
+                        <span>Detaylar</span>
+                    </a>
+                    <a href="/portfolyo/testinium#loadium" className="home__work__item">
+                        <img className="img-fluid" src="/images/loadium.png" alt="Loadium"/>
+                        <span>Detaylar</span>
+                    </a>
+                    <a href="/portfolyo/testinium#testinium" className="home__work__item">
+                        <img className="img-fluid" src="/images/testinium.png" alt="Testinium"/>
+                        <span>Detaylar</span>
+                    </a>
+                    <a href="/portfolyo/testinium#dashboard" className="home__work__item">
+                        <img className="img-fluid" src="/images/dashboard.png" alt="Qa-Dashboard"/>
+                        <span>Detaylar</span>
+                    </a>
+                    <a href="/portfolyo/teknovol" className="home__work__item">
+                        <img className="img-fluid" src="/images/teknovol.png" alt="Teknovol"/>
+                        <span>Detaylar</span>
+                    </a>
                 </div>
             </section>
             <section className="container py-5">
@@ -60,7 +56,7 @@ function Home() {
                             Yeteneklerim</h3>
                     </div>
                     <div className="col-12 col-md-8 wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0.3s">
-                        <h4>Front End Development</h4>
+                        <h4>Front-end Development</h4>
                         <p>Güncel teknolojileri kullanarak geliştirme yapıyorum ve en basit yöntemle karmaşık
                             problemleri çözmeye
                             çalışıyorum. Güncel teknolojileri deniyorum ve diğer teknolojilerle arasındaki performans
@@ -147,9 +143,11 @@ function Home() {
                             teknolojilerin konuşulduğu
                             Webmaster Meetup 'lar düzenledik. Aktif olarak organizatör görevi üstlendim.</p>
 
-                        <p>Üniversite bittikten sonra staj yaptığım yer olan, eski adıyla Saha Bilgi Teknolojileri 'nde
-                            çalışmaya başladım ve hala çalışmaktayım. Angular, React, Webpack, SCSS, ES6 gibi
-                            teknolojilerle çalışıyorum.</p>
+                        <p>Üniversite bittikten sonra staj yaptığım yer olan, Testinium 'da
+                            çalışmaya başladım. Angular, React, Webpack, SCSS, ES6 gibi
+                            teknolojilerle çalıştım. Testinium, Loadium, QA Dashboard gibi SaaS ürünlerinin geliştirilmesinde etkin rol oynadım.</p>
+
+                        <p>Şu anda Gittigidiyor.com 'da Front-end Engineer olarak çalışıyorum.</p>
                     </div>
                 </div>
             </section>

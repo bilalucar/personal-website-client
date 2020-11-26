@@ -16,16 +16,33 @@ function Portfolio() {
                         className="col-12 col-md-4 d-flex justify-content-center justify-content-md-start wow fadeInUp animated"
                         data-wow-duration="1s" data-wow-delay="0s">
                         <div>
+                            <img className="img-fluid" src="/images/gittigidiyor.png" alt="Testinium"/>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-8 wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0.3s">
+                        <div className="portfolyo__item-content">
+                            <p><b>Front-end Engineer, Full Tıme</b></p>
+                            <p>GittiGidiyor.com, eBay ailesinin bir üyesi olup,
+                                alıcılarla satıcıları buluşturan bir e-ticaret sitesidır.</p>
+                            <p>11/2020 – Devam Ediyor</p>
+                        </div>
+                    </div>
+                </div>
+                <div className="row py-4">
+                    <div
+                        className="col-12 col-md-4 d-flex justify-content-center justify-content-md-start wow fadeInUp animated"
+                        data-wow-duration="1s" data-wow-delay="0s">
+                        <div>
                             <img className="img-fluid" src="/images/testinium.png" alt="Testinium"/>
                         </div>
                     </div>
                     <div className="col-12 col-md-8 wow fadeInUp animated" data-wow-duration="1s" data-wow-delay="0.3s">
                         <div className="portfolyo__item-content">
-                            <p><b>Front End Developer, Full Tıme</b></p>
+                            <p><b>Front-end Developer, Full Tıme</b></p>
                             <p>Testinium, Loadium, QA Dashboard gibi ürünleri geliştiren aynı zamanda danışmanlık
-                                ve eğitim gibi hizmetleri de veren Saha Bilgi Teknolojileri 'nde Front End Developer
-                                olarak çalışmaya devam ediyorum.</p>
-                            <p>07/2018 – Devam ediyor</p>
+                                ve eğitim gibi hizmetleri de veren Saha Bilgi Teknolojileri 'nde Front-end Developer
+                                olarak çalıştım.</p>
+                            <p>07/2018 – 11/2020</p>
                             <div className="portfolyo__read-more">
                                 <Link to="/portfolyo/testinium">Detaylar >></Link>
                             </div>

@@ -35,6 +35,17 @@
   }
 
   &__work {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    @include tablet {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    @include desktop {
+      grid-template-columns: repeat(5, 1fr);
+    }
+
     img {
       position: relative;
       transition: all 350ms ease;
@@ -48,12 +59,12 @@
       bottom: 0;
       left: 0;
       right: 0;
-      height: 70px;
+      height: 50px;
       color: white;
-      line-height: 70px;
+      line-height: 50px;
       text-align: center;
       font-weight: 400;
-      font-size: 22px;
+      font-size: 18px;
       display: block;
     }
 
@@ -63,7 +74,7 @@
       display: block;
 
       &:hover img {
-        top: -70px;
+        top: -50px;
         transition: all 350ms ease;
       }
     }
