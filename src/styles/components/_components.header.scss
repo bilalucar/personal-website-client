@@ -6,13 +6,32 @@
   background-color: $header-background-color;
 
   &__menu {
-    a {
-      color: $secondary-text-color;
-    }
+    display: flex;
   }
 
   &__menu-item {
-    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 30px;
+    color: $secondary-text-color;
+
+    svg {
+      margin-right: 10px;
+
+      @include to-tablet {
+        font-size: 30px;
+      }
+    }
+
+    span {
+      display: none;
+
+      @include from-tablet {
+        display: block;
+      }
+    }
   }
 
   &__active {
